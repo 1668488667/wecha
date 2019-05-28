@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <style>
+        html body .iconfont{
+            font-size: 30px;
+        }
+        #wrap{
+            height:1260px ;
+            width: 980px;
+
+        }
+        #wrap .top{
+            height: 80px;
+            font-size: 20px;
+            background-color: #9989;
+        }
+        #wrap .top .time{
+            width: 200px;
+            float:left ;
+        }
+        #wrap .top .icons{
+            width: 150px;
+            float: right;
+        }
+        #wrap .titiles{
+            width: 980px;
+            height: 150px;
+            background-color: #9989;
+
+        }
+        .titiles .tit-content{
+            width: 150px;
+            font-size: 50px;
+            line-height: 130px;
+
+        }
+        #wrap .form{
+            width: 980px;
+            height: 1366px;
+        }
+        #wrap ul{
+            width: 920px;
+            list-style: none;
+            height: 1260px;
+            /*scroll 滚动条 */
+            /*scroll 滚动条 */
+            overflow: scroll;
+            margin-top: 55px;
+        }
+        #wrap ul li{
+            height: 150px;
+            font-size: 50px;
+        }
+        #wrap ul li .iconfont{
+            font-size: 90px;
+            position: relative;
+            top: 35px;
+            left: 10px;
+            color: lawngreen;
+        }
+        #wrap ul li .bott{
+            width: 830px;
+            height: 150px;
+            border-bottom: solid 1px #999999;
+            position: relative;
+            top: -100px;
+            left: 135px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 35px;
+        }
+
+        #wrap ul li:nth-child(1) span:nth-child(1){
+            color: darkorange;
+        }
+        #wrap ul li:nth-child(2) span:nth-child(1){
+            color: limegreen;
+        }
+        #wrap ul li:nth-child(3) span:nth-child(1){
+            color: royalblue;
+        }
+        #wrap ul li:nth-child(4) span:nth-child(1){
+            color: royalblue;
+        }
+        #wrap ul .text{
+            font-size: 50px;
+            color: #666;
+            margin-left: 20px;
+            line-height:150px;
+        }
+        #wrap ul .wd{
+            width: 980px;
+            height: 60px;
+            background-color: #999999;
+            font-size: 33px;
+            line-height: 60px;
+        }
+        #wrap .manager{
+            /*display: flex;  弹性盒子*/
+            display: flex;
+            height: 150px;
+            background-color: #9989;
+        }
+        #wrap .manager a{
+            width: 270px;
+            color:gainsboro ;
+        }
+        #wrap .manager a:hover{
+            color: lawngreen;
+        }
+        #wrap .manager div{
+            flex: 1;
+        }
+        #wrap .manager div .iconfont{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            width: 100px;
+            height: 100px;
+            border-radius:50% ;
+            font-size: 60px;
+        }
+        #wrap .manager a div .test{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            position: absolute;
+            top: 1746px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="top">
+        <div class="time">上午9：15</div>
+        <div class="icons">
+            <span class="iconfont test">&#xeb07;</span>
+            <span class="iconfont test">&#xe6be;</span>
+            <span class="iconfont test">&#xe6bd;</span>
+            <span class="iconfont test">&#xe617;</span>
+        </div>
+    </div>
+    <div class="titiles">
+        <div class="tit-content">通讯录</div>
+    </div>
+    <div class="form">
+        <ul>
+            <li>
+                <span class="iconfont">&#xe601;</span>
+                <div class="bott">
+                <span class="text">新的朋友</span>
+                </div>
+            </li>
+            <li>
+
+                <span class="iconfont">&#xe70d;</span>
+                <div class="bott">
+                <span class="text">群聊</span>
+                </div>
+            </li>
+
+            <li>
+
+                <span class="iconfont">&#xe600;</span>
+                <div class="bott">
+                <span class="text">标签</span>
+                </div>
+            </li>
+            <li>
+
+                <span class="iconfont">&#xe651;</span>
+                <div class="bott">
+                <span class="text">公众号</span>
+                </div>
+            </li>
+            <li class="wd">A</li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=1321533764,4218053354&fm=26&gp=0.jpg" >
+                </span>
+                <div class="bott">
+                    <span class="text">a</span>
+                </div>
+            </li>
+            <li class="wd">B</li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=1331454284,3994274381&fm=26&gp=0.jpg">
+                </span>
+                <div class="bott">
+                    <span class="text">b</span>
+                </div>
+            </li>
+            <li class="wd">C</li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=3423988895,3429880756&fm=26&gp=0.jpg" >
+                </span>
+                <div class="bott">
+                    <span class="text">c</span>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="manager">
+        <a href="微信页面.html"  >
+            <div>
+                <span class="iconfont ">&#xe62b;
+                   <span class="test"> 微信</span>
+                </span>
+            </div>
+        </a>
+        <a href="通讯录.html">
+            <div>
+                <span class="iconfont">&#xe655;
+                    <span class="test">通讯录</span>
+                </span>
+            </div>
+        </a>
+        <a href="发现.html">
+            <div>
+                <span class="iconfont">&#xe629;
+                    <span class="test">发现</span>
+                </span>
+            </div>
+        </a>
+        <a href="我.html">
+            <div>
+                <span class="iconfont">&#xe626;
+                    <span class="test">我</span>
+                </span>
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/iconfont.css" rel="stylesheet" >
+    <style>
+        html body .iconfont{
+            font-size: 30px;
+        }
+        #wrap{
+            height:1260px ;
+            width: 980px;
+        }
+       #wrap .top{
+            height: 80px;
+            font-size: 20px;
+            background-color: #9989;
+        }
+        #wrap .top .time{
+            width: 200px;
+            float:left ;
+        }
+        #wrap .top .icons{
+            width: 150px;
+            float: right;
+        }
+         #wrap .titiles{
+            width: 980px;
+            height: 150px;
+            background-color: #9989;
+         }
+        .titiles .tit-content{
+            width: 100px;
+            font-size: 50px;
+            line-height: 150px;
+            float: left;
+
+        }
+        .titiles .ifont{
+            position: relative;
+        }
+        .titiles .icon{
+            font-size: 30px;
+            float: right;
+            line-height: 150px;
+            margin-right : 30px;
+        }
+        #wrap .form{
+            width: 980px;
+        }
+        #wrap ul{
+            width: 900px;
+            list-style: none;
+            height: 1295px;
+            /*scroll 滚动条 */
+            overflow: scroll;
+            margin-top: 55px;
+        }
+        #wrap ul li{
+            width: 980px;
+            height: 150px;
+        }
+        #wrap ul .bott{
+            width: 820px;
+            height: 150px;
+            margin-left: 90px;
+            border-bottom: solid 1px #999999;
+            position: relative;
+            top: -100px;
+            left: 59px;
+
+        }
+        #wrap ul .iconfont{
+            font-size: 90px;
+            top: 30px;
+            left: 10px;
+            position: relative;
+            top: 18px;
+        }
+       img{
+           width: 100px;
+           height: 100px;
+           position: relative;
+           top: 25px;
+        }
+        #wrap ul li:nth-child(1) span:nth-child(1){
+            color: limegreen;
+        }
+        #wrap ul li:nth-child(2) span:nth-child(1){
+            color: limegreen;
+        }
+        #wrap ul li:nth-child(3) span:nth-child(1){
+            color: darkorange;
+        }
+        #wrap ul li:nth-child(4) span:nth-child(1){
+            color: limegreen;
+        }
+        #wrap ul .text{
+            font-size: 50px;
+            color: #666;
+            margin-left: 20px;
+            line-height:100px;
+        }
+        #wrap ul .word{
+            font-size: 30px;
+            color: #999999;
+            margin-left: 20px;
+            line-height: -1px;
+        }
+        #wrap .manager{
+            /*display: flex;  弹性盒子*/
+            display: flex;
+            height: 150px;
+            background-color: #9989;
+
+        }
+        #wrap .manager a{
+            width: 270px;
+            color:gainsboro ;
+        }
+        #wrap .manager a:hover{
+            color: lawngreen;
+        }
+        #wrap .manager div{
+            flex: 1;
+        }
+        #wrap .manager div .iconfont{
+             margin: 0 auto;
+             display: flex;
+             justify-content: center;
+             overflow: hidden;
+             width: 100px;
+             height: 100px;
+             border-radius:50% ;
+             font-size: 60px;
+        }
+        #wrap .manager a div .test{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            position: absolute;
+            top: 1690px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="top">
+            <div class="time">上午9：15</div>
+            <div class="icons">
+                <span class="iconfont test">&#xeb07;</span>
+                <span class="iconfont test">&#xe6be;</span>
+                <span class="iconfont test">&#xe6bd;</span>
+                <span class="iconfont test">&#xe617;</span>
+            </div>
+        </div>
+        <div class="titiles">
+            <div class="tit-content">微信</div>
+            <div class="ifont">
+            <div class="icon"><img src="../img/加号.png"></div>
+            <div class="icon"> <img src="../img/放大镜.png"></div>
+            </div>
+        </div>
+        <div class="form">
+        <ul>
+            <li>
+                <span class="iconfont">&#xe62a;</span>
+                <div class="bott">
+                <span class="text">微信支付</span>
+                <br> <span class="word">微信支付凭证</span>
+                </div>
+            </li>
+            <li>
+               <span class="iconfont">&#xe61b;</span>
+                <div class="bott">
+               <span class="text">微信运动</span>
+               <br> <span class="word">[应用信息]</span>
+                </div>
+            </li>
+            <li>
+                <span class="iconfont">&#xe602;</span>
+                <div class="bott">
+                <span class="text">微信游戏</span>
+                <br> <span class="word">【订阅消息】精英周报，请你查收！</span>
+                </div>
+            </li>
+            <li>
+                <span class="iconfont">&#xe634;</span>
+                <div class="bott">
+                <span class="text">腾讯新闻</span>
+                <br> <span class="word">白马闹事失控撞人 被警方当场击毙</span>
+                </div>
+            </li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=27039729,159136916&fm=26&gp=0.jpg">
+                </span>
+                <div class="bott">
+                <span class="text">机器人</span>
+                <br> <span class="word">在吗？</span>
+                </div>
+            </li>
+
+             <li>
+                 <span class="img">
+                     <img src="../img/u=1006137283,3279304684&fm=26&gp=0.jpg">
+                 </span>
+                 <div class="bott">
+                 <span class="text">机器人</span>
+                 <br> <span class="word">[视频通话]</span>
+                 </div>
+             </li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=1321533764,4218053354&fm=26&gp=0.jpg" >
+                </span>
+                <div class="bott">
+                <span class="text">机器人</span>
+                <br> <span class="word">[语音通话]</span>
+                </div>
+            </li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=1331454284,3994274381&fm=26&gp=0.jpg">
+                </span>
+                <div class="bott">
+                <span class="text">机器人</span>
+                <br> <span class="word">通话被其他应用中断，重新拨打</span>
+                </div>
+            </li>
+            <li>
+                <span class="img1">
+                    <img src="../img/u=3423988895,3429880756&fm=26&gp=0.jpg" >
+                </span>
+                <div class="bott">
+                <span class="text">机器人</span>
+                <br> <span class="word">[图片]</span>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="manager">
+            <a href="微信页面.html"  >
+            <div>
+                <span class="iconfont ">&#xe62b;
+                   <span class="test"> 微信</span>
+                </span>
+            </div>
+            </a>
+            <a href="通讯录.html">
+            <div>
+                <span class="iconfont">&#xe655;
+                    <span class="test">通讯录</span>
+                </span>
+            </div>
+            </a>
+            <a href="发现.html">
+            <div>
+                <span class="iconfont">&#xe629;
+                    <span class="test">发现</span>
+                </span>
+        </div>
+            </a>
+            <a href="我.html">
+            <div>
+                <span class="iconfont">&#xe626;
+                    <span class="test">我</span>
+                </span>
+            </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

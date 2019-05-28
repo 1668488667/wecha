@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/iconfont.css" rel="stylesheet" >
+    <style>
+        html body .iconfont{
+            font-size: 30px;
+        }
+        #wrap{
+            height:1260px ;
+            width: 980px;
+
+        }
+        #wrap .top{
+            height: 80px;
+
+            font-size: 20px;
+        }
+        #wrap .top .time{
+            width: 200px;
+            float:left ;
+        }
+        #wrap .top .icons{
+            width: 150px;
+            float: right;
+        }
+        #wrap .titiles{
+            width: 980px;
+            height: 300px;
+
+            margin-top: 3px;
+
+        }
+        .titiles div span{
+            width: 300px;
+            height: 150px;
+            margin-top: 100px;
+            float: left;
+            margin-left: 50px;
+        }
+
+        #wrap .form{
+            width: 980px;
+            height: 1194px;
+
+        }
+        #wrap ul{
+            width: 900px;
+            height: 1200px;
+            list-style: none;
+            /*scroll 滚动条 */
+            overflow: scroll;
+        }
+        #wrap ul li{
+            height: 150px;
+        }
+        #wrap ul .iconfont{
+            font-size: 60px;
+            position: relative;
+            left: 10px;
+            line-height: 150px;
+            top: 55px;
+        }
+        #wrap ul .test{
+            font-size: 50px;
+            margin-left: 30px;
+            line-height: 150px;
+        }
+        #wrap ul .bott{
+            width: 820px;
+            height: 150px;
+            margin-left: 90px;
+            border-bottom: solid 1px #999999;
+            position: relative;
+            top: -100px;
+            left: 59px;
+
+        }
+        #wrap .titiles div .user{
+            position: absolute;
+            top: 220px;
+            left:230px;
+        }
+        .titiles .username{
+            font-size: 50px;
+            padding: 30px;
+        }
+        .titiles .accountnumber{
+            font-size: 30px;
+            margin-left: 30px;
+        }
+        #wrap .manager{
+            /*display: flex;  弹性盒子*/
+            display: flex;
+            height: 150px;
+            background-color: #9989;
+        }
+        #wrap .manager a{
+            width: 270px;
+            color:gainsboro ;
+        }
+        #wrap .manager a:hover{
+            color: lawngreen;
+        }
+        #wrap .manager div{
+            flex: 1;
+        }
+        #wrap .manager div .iconfont{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            width: 100px;
+            height: 100px;
+            border-radius:50% ;
+            font-size: 60px;
+        }
+        #wrap .manager a div .test{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            position: absolute;
+            top: 1690px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="top">
+        <div class="time">上午9：15</div>
+        <div class="icons">
+            <span class="iconfont test">&#xeb07;</span>
+            <span class="iconfont test">&#xe6be;</span>
+            <span class="iconfont test">&#xe6bd;</span>
+            <span class="iconfont test">&#xe617;</span>
+        </div>
+    </div>
+    <div class="titiles">
+        <div>
+          <span>  <img src="../img/a05.jpg"></span>
+            <div class="user">
+              <div class="username">鱼的记忆</div>
+              <div class="accountnumber">微信号：zjhchs18794923971</div>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <ul>
+            <li>
+                <span class="iconfont">&#xe640;</span>
+                <div class="bott">
+                <span class="test">支付</span>
+                </div>
+            </li>
+            <li>
+                <span class="iconfont">&#xe60d;</span>
+                <div class="bott">
+                <span class="test">收藏</span>
+                </div>
+            </li>
+
+            <li>
+                <span class="iconfont">&#xe60a;</span>
+                <div class="bott">
+                <span class="test">相册</span>
+                </div>
+            </li>
+
+            <li>
+                <span class="iconfont">&#xe60c;</span>
+                <div class="bott">
+                <span class="test">卡包</span>
+                </div>
+            </li>
+
+            <li>
+                <span class="iconfont">&#xe60b;</span>
+                <div class="bott">
+                <span class="test">表情</span>
+                </div>
+            </li>
+
+            <li>
+                <span class="iconfont">&#xe609;</span>
+                <div class="bott">
+                <span class="test">设置</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="manager">
+        <a href="微信页面.html"  >
+            <div>
+                <span class="iconfont ">&#xe62b;
+                   <span class="test"> 微信</span>
+                </span>
+            </div>
+        </a>
+        <a href="通讯录.html">
+            <div>
+                <span class="iconfont">&#xe655;
+                    <span class="test">通讯录</span>
+                </span>
+            </div>
+        </a>
+        <a href="发现.html">
+            <div>
+                <span class="iconfont">&#xe629;
+                    <span class="test">发现</span>
+                </span>
+            </div>
+        </a>
+        <a href="我.html">
+            <div>
+                <span class="iconfont">&#xe626;
+                    <span class="test">我</span>
+                </span>
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>
